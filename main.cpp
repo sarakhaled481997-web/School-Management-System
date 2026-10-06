@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Person.h"
-#include "Student.h"
-#include "Teacher.h"
-#include "Staff.h"
-#include "Course.h"
-#include "Classroom.h"
-#include "Exam.h"
+#include "include/Person.h"
+#include "include/Student.h"
+#include "include/Teacher.h"
+#include "include/Staff.h"
+#include "include/Course.h"
+#include "include/Classroom.h"
+#include "include/Exam.h"
 
 
 using namespace std;
