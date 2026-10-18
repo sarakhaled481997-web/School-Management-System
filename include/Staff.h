@@ -10,6 +10,8 @@ private:
     float salary;
 
 public:
+Staff();
+~Staff();
     void setRole(string r)
     {
         role=r;
