@@ -16,6 +16,8 @@ private:
     int id;
 
 public:
+ Person();
+    ~Person();
     void setName(string n)
     {
         name=n;
