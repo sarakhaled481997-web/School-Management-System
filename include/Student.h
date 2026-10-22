@@ -10,8 +10,11 @@ private:
     float GPA;
 
 public:
-Student();
-~Student();
+    Student()
+    {
+        GPA=0;
+    }
+    ~Student(){}
     void setGradeLevel(string g)
     {
         gradeLevel=g;
