@@ -10,8 +10,11 @@ private:
     float salary;
 
 public:
-Staff();
-~Staff();
+    Staff()
+    {
+        salary=0;
+    }
+    ~Staff(){}
     void setRole(string r)
     {
         role=r;
@@ -29,6 +32,10 @@ Staff();
     {
         return salary;
     }
+};
+
+
+#endif // STAFF_H
 };
 
 
