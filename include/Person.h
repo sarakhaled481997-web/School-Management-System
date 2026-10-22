@@ -16,8 +16,12 @@ private:
     int id;
 
 public:
- Person();
-    ~Person();
+    Person()
+    {
+        age=0;
+        id=0;
+    }
+    ~Person(){}
     void setName(string n)
     {
         name=n;
